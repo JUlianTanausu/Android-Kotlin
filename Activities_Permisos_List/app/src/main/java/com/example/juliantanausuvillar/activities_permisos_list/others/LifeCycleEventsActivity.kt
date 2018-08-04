@@ -1,4 +1,4 @@
-package com.example.juliantanausuvillar.activities_permisos_list.activities
+package com.example.juliantanausuvillar.activities_permisos_list.others
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -1,10 +1,10 @@
 package com.example.juliantanausuvillar.activities_permisos_list.activities
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.widget.Toast
 import com.example.juliantanausuvillar.activities_permisos_list.R
+import com.example.juliantanausuvillar.activities_permisos_list.others.LifeCycleEventsActivity
 
 class LifeCycleActivity : LifeCycleEventsActivity() {
 

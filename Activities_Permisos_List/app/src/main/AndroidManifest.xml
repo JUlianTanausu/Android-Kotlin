@@ -3,8 +3,11 @@
     package="com.example.juliantanausuvillar.activities_permisos_list">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
+        android:name=".app.MyApp"
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -30,8 +33,15 @@
         <activity android:name=".activities.PermissionsActivity" />
         <activity android:name=".activities.SharedPreferencesActivity" />
         <activity android:name=".activities.ExtensionFunctionsActivity" />
-        <activity android:name=".activities.LifeCycleEventsActivity" />
-        <activity android:name=".activities.IntentExtrasActivity"></activity>
+        <activity android:name=".others.LifeCycleEventsActivity" />
+        <activity android:name=".activities.IntentExtrasActivity">
+
+            <!-- aki le dices k su padre es el main, te llevara ahi al volver atras -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".others.ToolbarActivity"></activity>
     </application>
 
 </manifest>

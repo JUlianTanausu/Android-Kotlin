@@ -6,15 +6,25 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.constraint.ConstraintLayout
 import android.support.design.widget.Snackbar
+import android.support.v7.widget.Toolbar
 import android.widget.Button
 import android.widget.Toast
 import com.example.juliantanausuvillar.activities_permisos_list.activities.*
+import com.example.juliantanausuvillar.activities_permisos_list.others.ToolbarActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ToolbarActivity() {
+   // private lateinit var toolbar: Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+       /* toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+        */
+        toolbarToLoad(toolbar as Toolbar)
+       //enableHomeDisplay(true)
 
         val btnLifeCycle = findViewById<Button>(R.id.button_to_cycle)
         val btnClickEvents = findViewById<Button>(R.id.button_to_click)
