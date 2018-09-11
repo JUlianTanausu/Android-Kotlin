@@ -13,4 +13,17 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+
+    <style name="NoPreview" parent="AppTheme">
+       <item name="android:windowDisablePreview">true</item>
+    </style>
+
+
+    <!-- poniendo estilo a rating bar -->
+    <style name="custom_rating_bar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/rating_bar_custom</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
 </resources>

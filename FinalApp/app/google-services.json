@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "389692968797-u934qogeg79pal2ogvchuclhvkspp5ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juliantanausuvillar.finalapp",
+            "certificate_hash": "094afdca79baceee24cd0dc908b9680fd684f1c0"
+          }
+        },
+        {
           "client_id": "389692968797-cs41qu72mfgtm1d598f4gsc8ilogegk9.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389692968797-cs41qu72mfgtm1d598f4gsc8ilogegk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

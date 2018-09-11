@@ -10,13 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".MainEmptyActivity"
+            android:theme="@android:style/Theme.NoDisplay">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/NoPreview"
+            android:windowSoftInputMode="adjustPan"> <!-- no empuje contenido cuanodo haces click x teclado -->
+
+        </activity>
+        <activity android:name=".activities.SingUpActivity"></activity>
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:windowSoftInputMode="adjustPan" />
+
     </application>
 
 </manifest>

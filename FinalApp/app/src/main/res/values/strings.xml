@@ -12,4 +12,23 @@
     <string name="login_forgot_password">I have forgotten my password</string>
     <string name="login_crate_account">Create a new account</string>
     <string name="login_go_login">Go back to Login</string>
+
+    <string name="navigation_bottom_info">Info</string>
+    <string name="navigation_bottom_rates">Rates</string>
+    <string name="navigation_bottom_chat">Chat</string>
+
+    <string name="chat_editText_message_hint">Type here a message</string>
+
+    <string name="info_label_messages">Total messages</string>
+    <string name="info_no_name">Name is not avaiolable</string>
+
+    <string name="options_menu_log_out">Log out</string>
+
+    <string name="dialog_title">Rate the App</string>
+    <string name="dialog_edit_text_hint">Leave your feedback</string>
+    <string name="dialog_ok">Rate</string>
+    <string name="dialog_cancel">Cancel</string>
+
+
+
 </resources>
